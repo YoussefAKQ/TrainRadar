@@ -32,7 +32,9 @@ export default function Home() {
         <p className="text-gray-400">Desarrollado por:</p>
         <Image src="/bl.png" alt="Bamp Labs" width={80} height={80} className=""/>
       </div>
-      <Safari url="magicui.design" className="size-xl" />
+      <Safari url="magicui.design" className="size-xl"         
+        url="bamplabs.io"
+        src="https://via.placeholder.com/1200x750" />
     </div>
   );
 }
