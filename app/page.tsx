@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {Safari} from "@/components/safari";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,8 +18,7 @@ export default function Home() {
         Sigue tu tren en <br /> tiempo real.
       </h1>
       <p className="text-gray-500 text-lg max-w-md">
-        Rastreamos toda la línea de Cercanías de Madrid en tiempo real —
-        <br /> No pierdas tu tren.
+        Rastreamos toda la línea de Cercanías de Madrid en tiempo real — No pierdas tu tren.
       </p>
       <div className="flex space-x-6 mt-6">
         <button className="py-3 px-6 bg-black text-white font-semibold rounded-full">
@@ -32,8 +32,7 @@ export default function Home() {
         <p className="text-gray-400">Desarrollado por:</p>
         <Image src="/bl.png" alt="Bamp Labs" width={80} height={80} className=""/>
       </div>
-      <Safari url="magicui.design" className="size-xl"         
-        url="bamplabs.io"
+      <Safari url="bamplabs.io" className="size-xl"         
         src="https://via.placeholder.com/1200x750" />
     </div>
   );
