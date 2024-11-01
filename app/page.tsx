@@ -14,11 +14,11 @@ export default function Home() {
           className="rounded-xl"
         />
       </div>
-      <h1 className="text-7xl font-bold tracking-tighter">
-        Sigue tu tren en <br /> tiempo real.
+      <h1 className="text-7xl font-bold tracking-tight">
+        Sigue tu línea de <br /> tren en tiempo real. 
       </h1>
       <p className="text-gray-500 text-lg max-w-md">
-        Rastreamos toda la línea de Cercanías de Madrid en tiempo real — No pierdas tu tren.
+        Rastreamos todas la lineas de Cercanías de Madrid en tiempo real — Para que no pierdas tu tren.
       </p>
       <div className="flex space-x-6 mt-6">
         <button className="py-3 px-6 bg-black text-white font-semibold rounded-full">
@@ -30,10 +30,15 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center mt-12">
         <p className="text-gray-400">Desarrollado por:</p>
-        <Image src="/bl.png" alt="Bamp Labs" width={80} height={80} className=""/>
+        <Image src="/bl.png" alt="Bamp Labs" width={60} height={60} className=""/>
       </div>
-      <Safari url="bamplabs.io" className="size-xl"         
-        src="https://via.placeholder.com/1200x750" />
+      <div className="bg-gray-900/10 rounded-xl p-24">
+        <Safari 
+          url="bamplabs.io" 
+          className="size-xl"
+          src="https://imagedelivery.net/0aWQQ0aPeqvRMfdqaMMJPQ/df84dc2b-b7b8-4649-9532-5d0566d99e00/public" 
+        />
+      </div>
     </div>
   );
 }
