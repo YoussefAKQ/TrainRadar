@@ -1,6 +1,6 @@
 import Image from "next/image";
-import {Safari} from "@/components/safari";
-import Link from "next/link";
+import { Safari } from "@/components/safari";
+import {Iphone15Pro} from "@/components/iphone";
 
 export default function Home() {
   return (
@@ -38,6 +38,32 @@ export default function Home() {
           className="size-xl"
           src="https://imagedelivery.net/0aWQQ0aPeqvRMfdqaMMJPQ/df84dc2b-b7b8-4649-9532-5d0566d99e00/public" 
         />
+      </div>
+      <h1 className="text-7xl font-bold tracking-tight">
+        Entiende el funcionamiento <br /> antes de empezar. 
+      </h1>
+      <p className="text-gray-500 text-lg max-w-md">
+        Disponible para cualquier dispositivo con acceso a internet — Para que no pierdas tu tren.
+      </p>
+      <div className="flex justify-center space-x-10 mt-10">
+        <div className="bg-gray-900/10 rounded-xl p-10 w-1/2">
+          {/* Contenido del cuadro izquierdo */}
+          <h2 className="text-2xl font-semibold">Cuadro Derecho</h2>
+          <p className="mb-4">Agrega aquí el contenido para el cuadro derecho.</p>
+          <Iphone15Pro 
+          className="size-[400px]"
+          src="" 
+        />
+        </div>
+        <div className="bg-gray-900/10 rounded-xl p-10 w-1/2">
+          {/* Contenido del cuadro derecho */}
+          <h2 className="text-2xl font-semibold">Cuadro Derecho</h2>
+          <p className="mb-4">Agrega aquí el contenido para el cuadro derecho.</p>
+          <Iphone15Pro 
+          className="size-[400px]"
+          src="" 
+        />
+        </div>
       </div>
     </div>
   );
